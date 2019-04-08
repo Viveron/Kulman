@@ -1,0 +1,78 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CryptoSwift (0.9.0)
+  - KeychainAccess (3.1.0)
+  - LeadKit (0.9.14):
+    - LeadKit/Core (= 0.9.14)
+  - LeadKit/Core (0.9.14):
+    - RxAlamofire (~> 4)
+    - RxCocoa (~> 4)
+    - RxSwift (~> 4)
+    - SwiftDate (~> 6)
+    - TableKit (~> 2.8)
+    - UIScrollView-InfiniteScroll (~> 1.1.0)
+  - LeadKitAdditions (0.3.12):
+    - LeadKitAdditions/Core (= 0.3.12)
+  - LeadKitAdditions/Core (0.3.12):
+    - CryptoSwift (~> 0.9.0)
+    - KeychainAccess (= 3.1.0)
+    - LeadKit (~> 0.9.0)
+    - PinLayout (~> 1.6)
+    - SwiftValidator (= 4.0.2)
+  - PinLayout (1.8.7)
+  - RxAlamofire (4.4.1):
+    - RxAlamofire/Core (= 4.4.1)
+  - RxAlamofire/Core (4.4.1):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 4.5)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.2.0)
+  - SwiftDate (6.0.1)
+  - SwiftValidator (4.0.2)
+  - TableKit (2.9.0)
+  - UIScrollView-InfiniteScroll (1.1.0)
+
+DEPENDENCIES:
+  - LeadKit
+  - LeadKitAdditions
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CryptoSwift
+    - KeychainAccess
+    - PinLayout
+    - RxAlamofire
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SwiftDate
+    - TableKit
+    - UIScrollView-InfiniteScroll
+  https://github.com/TouchInstinct/Podspecs.git:
+    - LeadKit
+    - LeadKitAdditions
+    - SwiftValidator
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+  LeadKit: 10f702f74ae695fae65f14356f55a40dc94b98d7
+  LeadKitAdditions: 081f23d187fb5418eca2e6ffccc027a18eb040ff
+  PinLayout: a0722a5c8f0e0168a9c091ffe4930dabf0c8582c
+  RxAlamofire: ed65f451f5a9a59419b0b9e705043dc01410edd9
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftDate: 2b3ef6b8fc30c22391033d1acad5622a51660016
+  SwiftValidator: 8517a67bceebd7286cb487da259db7dd44c5fc74
+  TableKit: 2271557382915c5d8f25883044047a8568ab6400
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+
+PODFILE CHECKSUM: 552642fb65003f098d21905d3e9e86eb12470d63
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,28 @@
+### Headers settings
+company: Victor Shabanov
+
+### Xcode project settings
+project_name: Kulman
+xcodeproj_path: Kulman.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: Kulman
+
+# The file path for new modules
+project_file_path: Kulman/PresentationLayer/Modules/
+
+# The Xcode group path to new modules
+project_group_path: Kulman/PresentationLayer/Modules/
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/viveron/generamba-catalog'
+templates:
+- {name: leadkit-mvvm-module}
+- {name: coordinator-flow}
+- {name: base-coordinator-flow}
+- {name: scenario-coordinator-flow}
